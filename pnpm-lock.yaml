@@ -28,6 +28,12 @@ dependencies:
     version: 2.0.1(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
+  '@types/d3-format':
+    specifier: ^3.0.4
+    version: 3.0.4
+  '@types/d3-time-format':
+    specifier: ^4.0.3
+    version: 4.0.3
   '@types/node':
     specifier: ^20.11.24
     version: 20.11.24
@@ -462,11 +468,19 @@ packages:
       tslib: 2.6.2
     dev: false
 
+  /@types/d3-format@3.0.4:
+    resolution: {integrity: sha512-fALi2aI6shfg7vM5KiR1wNJnZ7r6UuggVqtDA+xiEdPZQwy/trcQaHnwShLuLdta2rTymCNpxYTiMZX/e09F4g==}
+    dev: true
+
   /@types/d3-scale@3.3.5:
     resolution: {integrity: sha512-YOpKj0kIEusRf7ofeJcSZQsvKbnTwpe1DUF+P2qsotqG53kEsjm7EzzliqQxMkAWdkZcHrg5rRhB4JiDOQPX+A==}
     dependencies:
       '@types/d3-time': 2.1.4
     dev: false
+
+  /@types/d3-time-format@4.0.3:
+    resolution: {integrity: sha512-5xg9rC+wWL8kdDj153qZcsJ0FWiFt0J5RB6LYUNZjwSnesfblqrI/bJ1wBdJ8OQfncgbJG5+2F+qfqnqyzYxyg==}
+    dev: true
 
   /@types/d3-time@2.1.4:
     resolution: {integrity: sha512-BTfLsxTeo7yFxI/haOOf1ZwJ6xKgQLT9dCp+EcmQv87Gox6X+oKl4mLKfO6fnWm3P22+A6DknMNEZany8ql2Rw==}
