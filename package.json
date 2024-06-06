@@ -12,7 +12,9 @@
     "postinstall": "husky install"
   },
   "dependencies": {
+    "@types/d3-scale": "^4.0.8",
     "d3-format": "^3.1.0",
+    "d3-scale": "^4.0.2",
     "d3-time-format": "^4.1.0",
     "next": "14.1.0",
     "next-themes": "^0.2.1",

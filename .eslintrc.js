@@ -33,6 +33,8 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
     '@typescript-eslint/return-await': 'off',
+    '@typescript-eslint/no-unsafe-argument': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
     'sort-imports': [
       'error',
       {
