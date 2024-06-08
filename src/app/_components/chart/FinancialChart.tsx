@@ -33,7 +33,7 @@ const initialData = [
   // 더미 데이터 추가...
 ].map((d) => ({ ...d, date: parseDate(d.date) }))
 
-const ChartSample = () => {
+const FinancialChart = () => {
   const ScaleProvider =
     discontinuousTimeScaleProviderBuilder().inputDateAccessor(
       (d) => new Date(d.date),
@@ -200,4 +200,4 @@ const ChartSample = () => {
   )
 }
 
-export default ChartSample
+export default FinancialChart
